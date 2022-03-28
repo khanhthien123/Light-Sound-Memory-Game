@@ -39,25 +39,40 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](http://g.recordit.co/RovxOOda0O.gif)
-![](http://g.recordit.co/wRJUsHU7MM.gif)
-![](http://g.recordit.co/hq5RUpSRIf.gif)
+![Testing game interface](http://g.recordit.co/RovxOOda0O.gif)
+![Toggling Start/Stop. Checking winningGame function](http://g.recordit.co/wRJUsHU7MM.gif)
+![Giving players 3 strikes. Checking losingGame function](http://g.recordit.co/hq5RUpSRIf.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-https://www.w3schools.com/
-https://www.tutorialsteacher.com/javascript/
+
+[https://www.w3schools.com/
+https://www.tutorialsteacher.com/javascript/]
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+[Although all the guides to complete these tasks have been laid out, there’s a few challenges giving a hard time. One of them is to understand why we are doing it this way. For example, when we created some constants and some global variables, I was very confused of why we had to create them and how they affected each other. And when we wrote the 2 functions: playSingleClue and playClueSequence, I was lost. I didn’t know what we were doing at that time, so I decided to write all the variables on paper, manually execute each line of code in those 2 functions and try to understand what was going on. Especially when there was a global method setTimeout() which was used in those 2 functions, and when I played the game, I noticed what should happen at each line of code. Gradually, I wrapped my head around what was actually going on but there was something missing. The “delay” variable should distance between 2 consecutive clues because it was increased over time. For instance, delay was first initialized with 1000ms, so the function waited 1000ms and then ran the function playSingleClue, then it was added by clueHoldTime and cluePauseTime, which meant it would wait 1000ms+ to play the next clue, but the game didn’t seem to work that way or I didn’t feel it that way.
+All in all, running each line of code and see the changes in each variable gives me a much understanding of what’s going on and give me more confidence in modifying any features.
+]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+[I haven’t deployed any web into production so I’m curious how to publish a website, and how we manage our website during production.
+Also, I practiced back-end development using Flask or Django (Python web frameworks) as servers. For database, I used SQLite and SQL. So, do you use Django in your tech stack? If not, what do you use? Beside database and server, what else should we care about in the back-end?
+What’s the hardest part in back-end development in particular? And in web development in general?
+Would web development be saturated in the future because it’s so popular at present, in another word, I’m curious about web developer demand in the next 7 years?
+]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+[Add background music while playing, when winning and when losing the game.
+Lengthen the pattern as the game goes on until the player loses and record their highest.
+Create log-in system to keep track of highest score and there would be a dashboard showing the player’s score.
+Give players the choice of difficulty. Slow, Moderate and Fast or 4 buttons, 6 buttons and 8 buttons.
+I think completing the above functions would take more than a few hours, but the result would be a very interacting game and a place for people to enjoy.
+]
 
 
 
