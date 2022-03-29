@@ -78,7 +78,7 @@ I think completing the above functions would take more than a few hours, but the
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/8b41256cea1c437abba2673a40a19611)
 
 
 ## License
