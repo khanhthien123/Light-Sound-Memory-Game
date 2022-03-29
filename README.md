@@ -83,7 +83,7 @@ I think completing the above functions would take more than a few hours, but the
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Kim Thien Tran]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
