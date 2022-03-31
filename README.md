@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![Testing game interface](http://g.recordit.co/RovxOOda0O.gif)
-![Toggling Start/Stop. Checking winningGame function](http://g.recordit.co/wRJUsHU7MM.gif)
-![Giving players 3 strikes. Checking losingGame function](http://g.recordit.co/hq5RUpSRIf.gif)
+![X](http://g.recordit.co/RovxOOda0O.gif)
+![X](http://g.recordit.co/wRJUsHU7MM.gif)
+![X](http://g.recordit.co/hq5RUpSRIf.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
